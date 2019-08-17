@@ -37,7 +37,8 @@ export default class extends Component {
         />
         <style global jsx="true">{`
           body {
-            margin: 0px
+            margin: 0px;
+            overflow: hidden;
           }
         `}
         </style>
