@@ -33,7 +33,7 @@ export default class extends Component {
       <div id="3d-graph"></div>
         <Script
           url="https://unpkg.com/3d-force-graph@1.52.0/dist/3d-force-graph.min.js"
-          onLoad={this.makeGraph.bind(this)}
+          onLoad={() =>this.makeGraph()}
         />
         <style global jsx="true">{`
           body {
